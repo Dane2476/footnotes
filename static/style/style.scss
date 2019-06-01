@@ -1,0 +1,89 @@
+$mainColor: #8F9F77;
+body{
+  background-color: #F0F0F0 !important;
+  background: url(../images/background.png) no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+}
+
+  .bar{
+    position: sticky;
+    width:100vw;
+    margin-left: 0;
+    padding-left: 0;
+    left:0;
+    background-color:#8F9F77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: barteldes-small,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 1em 0 1em 0;
+    a{
+      color: white;
+    }
+    a:hover{
+      color:black;
+      text-decoration: none;
+    }
+    div{
+      font-size: 1.2em;
+      padding: 0 2.5em 0 2.5em;
+    }
+  }
+
+
+
+.info{
+  background-color: white;
+  margin-top:2em;
+  margin-bottom: 2em;
+  border-radius: .25em;
+  background-color: white;
+  -webkit-box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+  box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+  .btn{
+    background-color: $mainColor;
+    border-color: $mainColor;
+  }
+  .btn:hover{
+    background-color: #E9D7A4;
+    border-color: $mainColor;
+  }
+
+}
+.container{
+
+  font-family: ltc-bodoni-175, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form{
+
+  .btn{
+    background-color: $mainColor;
+    border-color: $mainColor;
+  }
+  .btn:hover{
+    background-color: #E9D7A4;
+    border-color: $mainColor;
+  }
+  .row{
+    margin-top: 5em;
+    .col-sm-6{
+      border-radius: .25em;
+      background-color: white;
+      padding: 3em 3em 3em 3em;
+      -webkit-box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+      -moz-box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+      box-shadow: 1px 2px 7px -1px rgba(0,0,0,0.75);
+    }
+    h3{
+      text-align: center;
+    }
+  }
+}
