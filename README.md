@@ -1,5 +1,5 @@
 # Footnotes
-live demo here: https://foot-notes.herokuapp.com
+Live demo here: https://foot-notes.herokuapp.com
 
 This application is a small book lookup site that uses goodreads API, Flask, and SQL. It uses a postgreSQL database to keep track of users, their reviews, etc..
 
